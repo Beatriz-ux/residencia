@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        form input,select{
+            width: 30vh;
+        }
+        form button{
+            margin-top: 10px;
+            width: 10vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de interessados</h1>
+    <form action="">
+        <laber for="nome">Nome</laber>
+        <input type="text" name="nome" id="nome">
+        <label for="endereco" >Endereço</label>
+        <input type="text" name="endereco" id="endereco" placeholder="R.tal , n*XX">
+        <label for="cep">CEP</label>
+        <input type="text" name="cep" id="cep" placeholder="xxxxx-xxx">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="fulano@gmail.com">
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(xx) x xxxx-xxxx">
+        <label for="cidade">Cidade</label>
+        <input type="text" name="cidade" id="cidade">
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+            <option value="brasil">Brasil</option>
+            <option value="argentina">Argentina</option>
+            <option value="uruguai">Uruguai</option>
+            <option value="paraguai">Paraguai</option>
+            <option value="chile">Chile</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="peru">Peru</option>
+            <option value="equador">Equador</option>
+            <option value="colombia">Colombia</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="guiana">Guiana</option>
+            <option value="suriname">Suriname</option>
+            <option value="guiana francesa">Guiana Francesa</option>
+        </select>
+        <button type="submit">Enviar</button>
+    </form>
+    <a href="index.html">voltar para convite</a>
+</body>
+</html>
