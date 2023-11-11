@@ -5,8 +5,7 @@ Este repositório é destinado ao armazenamento das atividades e exemplos desenv
 ## Disciplinas
 
 ### 1. Front-end
-- [Semana 1](./front-end/semana1): Introdução ao desenvolvimento front-end, HTML, CSS.
-<!-- - [Semana 2](./front-end/semana2): JavaScript e frameworks front-end. -->
+- [Semana 1](./frontend/semana1): Introdução ao desenvolvimento front-end, HTML, CSS.
 
 ### 2. Python
 - [Semana 1](./python/semana1): Introdução ao Python.
