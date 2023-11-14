@@ -1,4 +1,4 @@
-#region Exercicio 1
+﻿#region Exercicio 1
 /*
     Escreva um programa em C# que imprime todos os números que são
     divisíveis por 3 ou por 4 entre 0 e 30;
@@ -10,6 +10,7 @@ for(int i=0;i<=30;i++){
         
 }
 #endregion
+
 #region Exercicio 2
 /*
     Faça um programa em C# que imprima os primeiros números da série de
@@ -29,4 +30,15 @@ do{
     fib3 = fib1 + fib2;
     Console.Write(fib3 + ",");
 }while(fib3<=100);
+#endregion
+
+#region Exercicio 3
+    //N N*2 N*3
+    Console.WriteLine("\nExercicio 3 :N N*2 N*3");
+    for(int i=1;i<=8;i++){
+        for(int j=1;j<=i;j++){
+            Console.Write(i*j + " ");
+        }
+        Console.WriteLine();
+    }
 #endregion
