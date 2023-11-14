@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios", "dotnet\semana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplosString", "dotnet\semana2\exemplosString\exemplosString.csproj", "{4551393E-8C1F-4FB0-B661-529BBEDA8E7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P002", "dotnet\semana2\P002\P002.csproj", "{3DE64C59-4051-4227-B05C-E4CB59D60ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4551393E-8C1F-4FB0-B661-529BBEDA8E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4551393E-8C1F-4FB0-B661-529BBEDA8E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4551393E-8C1F-4FB0-B661-529BBEDA8E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE64C59-4051-4227-B05C-E4CB59D60ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE64C59-4051-4227-B05C-E4CB59D60ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE64C59-4051-4227-B05C-E4CB59D60ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE64C59-4051-4227-B05C-E4CB59D60ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{7C437D38-0602-466C-B343-7E0F9DC81D69} = {3E32D922-91B7-4CC4-922F-67F8BC92442C}
 		{EDDF4C91-1C19-4848-8056-DCBC0CD0F39C} = {3E32D922-91B7-4CC4-922F-67F8BC92442C}
 		{4551393E-8C1F-4FB0-B661-529BBEDA8E7C} = {3E32D922-91B7-4CC4-922F-67F8BC92442C}
+		{3DE64C59-4051-4227-B05C-E4CB59D60ED3} = {3E32D922-91B7-4CC4-922F-67F8BC92442C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {733FBC00-3321-4B2F-97B6-CBCFBBABB5D8}
