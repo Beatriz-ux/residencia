@@ -12,3 +12,9 @@
     }
 
 #endregion
+
+#region Array
+object[] array = new object[3]; //cria um tipo generico , mas ao adicionar o primeiro elemento ele se torna do tipo do elemento adicionado
+
+#endregion
+
