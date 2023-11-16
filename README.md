@@ -23,6 +23,7 @@ Este repositório é destinado ao armazenamento das atividades e exemplos desenv
 ### 3. Java
 - [Semana 1](./) : Configuração de ambiente e introdução aos conceitos de Java.
 - [Semana 2](./java/semana2): Orientação a Objetos em Java.
+    - [P001](./java/semana2/P001): desenvolvimento de uma calculadora simples e um conversor de temperatura (Celsius e Fahrenheit)
  
 <!-- - [Semana 2](./dotnet/semana2): Desenvolvimento de aplicações .NET. -->
 
