@@ -1,0 +1,21 @@
+#caixa-externa {
+    background: rgb(82, 21, 72);
+    padding: 10px;
+}
+
+#caixa-externa .caixa{
+    background: blue;
+    
+}
+
+.caixa p{
+    color: yellow;
+}
+
+.caixa-interna p{
+    color:white;
+    background: red
+}
+p{
+    margin: 0px;
+}
