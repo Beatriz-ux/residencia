@@ -13,16 +13,16 @@ Este repositório é destinado ao armazenamento das atividades e exemplos desenv
 
 ### 2. Python
 - [Semana 1](./python/semana1): Introdução ao Python.
- - [Semana 2](./python/semana2): Manipulação de dados em Python. 
-
-### 3. Java
-- [Semana 1](./java/semana1): Fundamentos do Java, estruturas de controle.
-- [Semana 2](./java/semana2): Orientação a Objetos em Java. -->
+ - [Semana 2](./python/semana2): Manipulação de dados em Python.  -->
 
 ### 2. .NET
 - [Semana 1](./dotnet/semana1): Introdução ao ambiente .NET, C# básico.
     - [P001](./dotnet/semana1/P001/):  foi explorado o ambiente .NET SDK, fornecendo comandos para verificar, remover e atualizar a instalação. Além de mostrar exemplos de usos de operadores e conversão de dados.
     - [P002](./dotnet/semana2/P002/):  desenvolvimento de um sistema de gerenciamento de tarefas (em construção).
+
+### 3. Java
+- [Semana 1](./) : Configuração de ambiente e introdução aos conceitos de Java.
+- [Semana 2](./java/semana2): Orientação a Objetos em Java.
  
 <!-- - [Semana 2](./dotnet/semana2): Desenvolvimento de aplicações .NET. -->
 
