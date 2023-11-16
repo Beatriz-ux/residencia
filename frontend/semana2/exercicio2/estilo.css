@@ -1,0 +1,28 @@
+#amarelo{
+    color: #f1c40f;
+}
+
+#vermelho{
+    color: #e74c3c;
+}
+
+#azul{
+    color: #3498db;
+}
+
+#marron{
+    color: #d3a37d;
+}
+
+#violeta{
+    color: #9b59b6;
+}
+
+.nomeCor{
+    font-size: 1.4vh;
+}
+
+img{
+    width: 15vh;
+    height: 15vh;
+}
