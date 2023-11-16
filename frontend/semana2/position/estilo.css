@@ -1,0 +1,29 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    margin-bottom: 10px;
+}
+
+.b{
+    position: relative;
+    left: 10px;
+    top: 5px;
+    background: purple;
+}
+
+.c{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    background: green
+}
+
+.d{
+    position: fixed;
+    left: 300px;
+    top: 500px;
+    background: yellow
+}
