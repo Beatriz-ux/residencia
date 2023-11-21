@@ -1,4 +1,4 @@
-﻿int opcao ;
+int opcao ;
 List<string> tarefas = new List<string>();
 do{
     Console.WriteLine("1- Criar tarefa"+
@@ -57,3 +57,28 @@ do{
     }
 }
 while(opcao  !=0);
+
+static int encontraAntiga(List<string[]> tarefas){
+    int antiga = 0;
+    DateTime dataAntiga = DateTime.ParseExact(tarefas[0][3], "dd/MM/yyyy", null);
+    for(int i=0;i<tarefas.Count;i++){
+        DateTime data = DateTime.ParseExact(tarefas[i][3], "dd/MM/yyyy", null);
+        if(data < dataAntiga){
+            dataAntiga = data;
+            antiga = i;
+        }
+    }
+    return antiga;
+}
+static int encontraRecente(List<string[]> tarefas){
+    int recente = 0;
+    DateTime dataRecente = DateTime.ParseExact(tarefas[0][3], "dd/MM/yyyy", null);
+    for(int i=0;i<tarefas.Count;i++){
+        DateTime data = DateTime.ParseExact(tarefas[i][3], "dd/MM/yyyy", null);
+        if(data > dataRecente){
+            dataRecente = data;
+            recente = i;
+        }
+    }
+    return recente;
+}
