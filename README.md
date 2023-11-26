@@ -7,6 +7,10 @@ Este repositório é destinado ao armazenamento das atividades e exemplos desenv
 ### 1. Front-end
 - [Semana 1](./frontend/semana1): Introdução ao desenvolvimento front-end, HTML, CSS.
     - [P001](./frontend/semana1/P001/): Carta de apresentação usando apenas HTML
+- [Semana 2](./frontend/semana1): Introdução a estilização com o uso de grid.
+    - [P002](./frontend/2/P002/): A atividade consistiu na criação de uma estrutura semelhante ao site da UESC utilizando HTML e CSS, com foco na implementação de um layout utilizando o sistema de Grid. O objetivo foi replicar o croqui fornecido pelo professor, empregando os conceitos de Grid para organizar e posicionar os elementos da página.
+
+
  
 
 <!-- - [Semana 2](./front-end/semana2): JavaScript e frameworks front-end. 
