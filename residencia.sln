@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "semana3", "semana3", "{B90A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemploTuplas", "dotnet\semana3\exemploTuplas\exemploTuplas.csproj", "{E9D4BC50-E905-4333-98BD-C1091B1C4D02}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P003", "dotnet\semana3\P003\P003.csproj", "{72E1BA7E-1D0D-42E0-8FD5-B3B801FA5CCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{E9D4BC50-E905-4333-98BD-C1091B1C4D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9D4BC50-E905-4333-98BD-C1091B1C4D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9D4BC50-E905-4333-98BD-C1091B1C4D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E1BA7E-1D0D-42E0-8FD5-B3B801FA5CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E1BA7E-1D0D-42E0-8FD5-B3B801FA5CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E1BA7E-1D0D-42E0-8FD5-B3B801FA5CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E1BA7E-1D0D-42E0-8FD5-B3B801FA5CCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{3DE64C59-4051-4227-B05C-E4CB59D60ED3} = {3E32D922-91B7-4CC4-922F-67F8BC92442C}
 		{B90AD7E2-6A6C-44F3-8347-8F34F3A46AE0} = {38ADF50C-4C66-4843-A360-6F73DD2F7E4D}
 		{E9D4BC50-E905-4333-98BD-C1091B1C4D02} = {B90AD7E2-6A6C-44F3-8347-8F34F3A46AE0}
+		{72E1BA7E-1D0D-42E0-8FD5-B3B801FA5CCE} = {B90AD7E2-6A6C-44F3-8347-8F34F3A46AE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {733FBC00-3321-4B2F-97B6-CBCFBBABB5D8}
