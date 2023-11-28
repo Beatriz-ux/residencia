@@ -22,7 +22,10 @@ Este repositório é destinado ao armazenamento das atividades e exemplos desenv
 ### 2. .NET
 - [Semana 1](./dotnet/semana1): Introdução ao ambiente .NET, C# básico.
     - [P001](./dotnet/semana1/P001/):  foi explorado o ambiente .NET SDK, fornecendo comandos para verificar, remover e atualizar a instalação. Além de mostrar exemplos de usos de operadores e conversão de dados.
+- [Semana 2](./dotnet/semana2): Estrutura de repetição e tipos de dados
     - [P002](./dotnet/semana2/P002/):  sistema de gerenciamento de tarefas, com as funcionalidades: excluir, listar, concluir, inserir e buscar (usando uma palavra-chave). Nesse sistema também foi implementado alguns recurso visuais para facilitar apresentação dos dados.
+- [Semana 3](./dotnet/semana3): Linqs e Exceções
+    - [P003](./dotnet/semana3/P003/):  sistema de gerenciamento de estoque de produtos, no qual as consultas foram feitas utilizando Linqs. Além de funções básicas de consultar,listar,cadastrar produtos possui também relatórios.
 
 ### 3. Java
 - [Semana 1](./) : Configuração de ambiente e introdução aos conceitos de Java.
