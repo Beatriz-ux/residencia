@@ -10,6 +10,12 @@
     hsl(208, 68%, 37%) 0%,
     hsl(208, 68%, 77%) 100%
   );
+  --backgroun-color3: radial-gradient(
+    ellipse at 90% 0%,
+    hsl(208, 68%, 77%) 0%,
+    hsl(208, 68%, 37%) 60%,
+    hsl(208, 68%, 37%) 100%
+  );
   --max-width: 1200px;
 }
 * {
@@ -25,10 +31,9 @@ body {
   flex-direction: row;
   background: var(--white-color);
   border-radius: 0.5rem;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
   color: var(--white-color);
   padding: 1rem 10rem;
+  padding-top: 7rem;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -171,10 +176,12 @@ header .icone {
 .hero {
   position: relative;
   display: flex;
-  background: var(--backgroun-color2);
+  background: var(--backgroun-color3);
   width: 100%;
   color: var(--white-color);
   border-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 .hero h1 {
   font-size: 2rem;
@@ -190,6 +197,7 @@ header .icone {
   width: 55%;
   right: -1rem;
   transition: all 1.5s ease-in-out;
+  z-index: 9;
 }
 .hero button {
   margin: 20px 0px;
@@ -198,42 +206,41 @@ header .icone {
   width: max-content;
 }
 .hero .descricao {
-  padding: 70px;
+  padding: 50px 70px;
   width: 30%;
 }
 .redes {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .ondas {
   position: relative;
-  margin-top: 120px;
-  z-index: -1;
+  margin-bottom: 0;
+  z-index: 1;
 }
 
-.custom-shape-divider-bottom-1701308560 {
+.custom-shape-divider-top-1701310754 {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1701308560 svg {
+.custom-shape-divider-top-1701310754 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 120px;
+  height: 94px;
   transform: rotateY(180deg);
 }
 
-.custom-shape-divider-bottom-1701308560 .shape-fill {
-  fill: var(--white-color);
+.custom-shape-divider-top-1701310754 .shape-fill {
+  fill: #1f639e;
 }
 @media (max-width: 1000px) {
   .hero .descricao {
