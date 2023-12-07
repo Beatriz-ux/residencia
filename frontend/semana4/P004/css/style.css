@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Smooch+Sans:wght@300&display=swap");
 :root {
   --primary-color: #1e629d;
-  --secondary-color: #f1592a;
+  --secondary-color: hsl(14, 88%, 55%);
+  --tercery2-color: hsl(14, 100%, 60%);
   --white-color: #efeeee;
   --backgroun-color: linear-gradient(90deg, #cecece 0%, #d6d6d6 100%);
   --backgroun-color2: linear-gradient(
@@ -25,7 +26,7 @@ body {
   background: var(--backgroun-color);
   overflow-x: hidden;
 }
-.container-destinos {
+.container-destinos:has(.roteiros-viagens) {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   flex-direction: row;
@@ -40,19 +41,22 @@ body {
 }
 
 .container-destinos img {
-  width: 150px;
-  height: 100px;
+  width: 100%;
+  height: 150px;
   border-radius: 7px;
-  margin-bottom: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  
 }
 .roteiros-viagens {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  background: var(--secondary-color);
+  background: var(--tercery2-color);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.249);
   border-radius: 10px;
-  padding: 15px 0;
+  padding-bottom: 15px;
   width: 100%;
   max-width: 200px;
 }
@@ -99,6 +103,7 @@ ul {
   margin: 0 auto;
   margin-top: 60px;
   width: 95%;
+  position: relative;
 }
 .roteiro-destino,
 .roteiro-preco {
@@ -112,6 +117,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 header {
   display: flex;
@@ -321,4 +327,4 @@ header .botao-form{
     color: var(--white-color);
     padding: 1rem 3rem;
     padding-top: 7rem;
-}
+  }
