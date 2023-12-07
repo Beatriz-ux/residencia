@@ -1,3 +1,38 @@
+const cardsContainer = document.querySelector(".container-destinos");
+const cards = carregarTarefasDoStorage();
+
+function criaCard(card) {
+  const div = document.createElement("div");
+  div.classList.add("roteiros-viagens");
+  div.innerHTML = `
+        <div class="imagem">
+            <img src="${card.url}" alt="">
+            <div class="roteiro-destino">${card.titulo}</div>
+        </div>
+        <div class="roteiros-conteudo">
+            <ul class="roteiro-incluso">
+              ${
+                printBeneficios(card.beneficios)
+              }
+              <li><iconify-icon icon="mdi-light:check"></iconify-icon>${card.diarias} diárias</li>
+            </ul>
+            <div class="roteiro-preco">
+              <small>R$</small>
+              ${Number(card.preco).toLocaleString("pt-br",{
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2,
+              })}</div>
+            <div class="roteiro-obs">
+              ${card.taxaInclusa=="sim" ? "Taxa de embarque inclusa" : ""}
+              <br />
+              ${card.parcelas == "0" ? "Sem parcelamento" : "Em até " +card.parcelas+"x sem Juros"}
+            </div>
+            <button class="roteiro-comprar" onclick="Comprar(${card.id})">Comprar</button>
+          </div>
+    `;
+    cardsContainer.appendChild(div);
+    
+}
 function Comprar(id){
   const card = cards.find((card) => card.id === id);
   console.log(card);
