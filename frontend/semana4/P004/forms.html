@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style-form.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roteiros Turísticos - Cadastro</title>
+  </head>
+
+  <body>
+    <div class="container-form">
+      <div class="colunm-logo">
+        <h2>Company</h2>
+        <p>configure os cards que serão exibidos na página principal</p>
+        
+        <a class="button" href="./index.html">voltar a página</a>
+      </div>
+      <div class="colunm-form">
+        <div>
+          <form action="">
+            <div class="item">
+              <label for="url">URL da imagem</label>
+              <input
+                type="text"
+                name="url"
+                id="url"
+                placeholder="http://exemplo.com/img.png"
+                required
+              />
+            </div>
+            <div class="item">
+              <label for="titulo">Título</label>
+              <input
+                type="text"
+                name="titulo"
+                id="titulo"
+                placeholder="Cidade"
+                required
+              />
+            </div>
+            <div class="item">
+              <span>Benefícios</span>
+              <div class="beneficios">
+                <label for="cafe"
+                  ><input type="checkbox" id="cafe" name="cafe" /> Café da manhã</label
+                >
+                <label for="ida_e_volta"
+                  ><input type="checkbox" id="ida_e_volta" name="ida_e_volta" /> Aéreo ida e
+                  volta</label
+                >
+                <label for="almoco"
+                  ><input type="checkbox" id="almoco" name="almoco" /> Almoço</label
+                >
+                <label for="academia"
+                  ><input type="checkbox" id="academia" name="academia" /> Academia</label
+                >
+                <label for="piscina"
+                  ><input type="checkbox" id="piscina" name="piscina" /> Piscina</label
+                >
+                <label for="wifi"
+                  ><input type="checkbox" id="wifi" name="wifi" /> Wi-fi</label
+                >
+              </div>
+            </div>
+            <div class="grupo">
+              <div  class="item">
+                <label for="diarias">Diarias</label>
+                <input type="number" name="diarias" id="diarias" min="1" required placeholder="1"/>
+              </div>
+              <div  class="item">
+                <label for="preco">Preço</label>
+                <input type="number" step="0.01" name="preco" id="preco" min="1" required placeholder="100"/>
+              </div>
+              <div  class="item">
+                <label for="parcelas">Parcelas</label>
+                <input
+                  type="number"
+                  name="parcelas"
+                  id="parcelas"
+                  min="0"
+                  max="12"
+                  placeholder="10"
+                />
+              </div>
+            </div>
+            <div class="item">
+              <span>Taxas já são inclusas?</span>
+              <div>
+                <label for="sim"
+                  ><input type="radio" name="taxaInclusa" id="sim" value="sim" required/> Sim</label
+                >
+                <label for="nao"
+                  ><input type="radio" name="taxaInclusa" id="nao" value="nao" required/> Não</label
+                >
+              </div>
+            </div>
+            <button type="submit">Inserir</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./script-form.js"></script>
+
+  </body>
+</html>
