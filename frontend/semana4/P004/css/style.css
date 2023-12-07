@@ -272,3 +272,46 @@ footer span{
     font-family: 'Roboto', sans-serif;
 
 }
+
+.roteiro-destino{
+  color: var(--secondary-color);
+  position: absolute;
+  bottom: 0;
+  padding: 2px 15px;
+  border-style: solid;
+  border-top-right-radius:50px ;
+  background: var(--white-color);
+  border: none;
+  clear: both;
+  width: calc(100% - 30px);
+}
+
+.roteiros-viagens .imagem{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .roteiro-preco small{
+    font-size: 0.6rem;
+  }
+
+header .botao-form{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    cursor: pointer;
+  }
+
+  .texto{
+    color: #868484;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .container-destinos{
+    background: var(--white-color);
+    color: var(--white-color);
+    padding: 1rem 3rem;
+    padding-top: 7rem;
+}
