@@ -1,3 +1,42 @@
+// const cards = [
+//   {
+//     id: 1,
+//     imagem: "./assets/imgs/salvador.jpg",
+//     title: "Salvador",
+//     beneficios: ["Aéreo ida e volta", "03 diárias", "Café da manhã"],
+//     preco: 670,
+//     taxaInclusa: true,
+//     parcelas: 10,
+//   },
+//   {
+//     id: 2,
+//     imagem: "./assets/imgs/fortaleza.jpg",
+//     title: "Fortaleza",
+//     beneficios: ["Aéreo ida e volta", "03 diárias", "Café da manhã"],
+//     preco: 590,
+//     taxaInclusa: true,
+//     parcelas: 10,
+//   },
+//   {
+//     id: 3,
+//     imagem: "./assets/imgs/campinas.jpg",
+//     title: "Campinas",
+//     beneficios: ["Aéreo ida e volta", "03 diárias", "Café da manhã"],
+//     preco: 1090,
+//     taxaInclusa: true,
+//     parcelas: 10,
+//   },
+//   {
+//     id: 4,
+//     imagem: "./assets/imgs/fortaleza.jpg",
+//     title: "Natal",
+//     beneficios: ["Aéreo ida e volta", "03 diárias"],
+//     preco: 790,
+//     taxaInclusa: true,
+//     parcelas: 10,
+//   },
+// ];
+
 const cardsContainer = document.querySelector(".container-destinos");
 const cards = carregarTarefasDoStorage();
 
@@ -37,6 +76,28 @@ function Comprar(id){
   const card = cards.find((card) => card.id === id);
   console.log(card);
 }
+
+function carregarTarefasDoStorage() {
+  // Obtém as tarefas existentes do localStorage
+  let cards = JSON.parse(localStorage.getItem("Cards")) || [];
+  cards=cards.map(element => {
+    return{
+      ...element,
+      id:cards.indexOf(element)
+    }
+  }
+    );
+  // Adiciona cada tarefa ao DOM
+  if (cards.length == 0){
+    const texto = document.createElement("p");
+    texto.innerText = "Nenhum roteiro cadastrado, vá ao botão azul do cabeçalho e cadastre um roteiro";
+    texto.classList.add("texto");
+    cardsContainer.appendChild(texto);
+  }
+  cards.forEach(criaCard);
+  return cards;
+}
+
 function printBeneficios(beneficios){
   let beneficio = "";
 
