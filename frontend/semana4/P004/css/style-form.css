@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    --valor: calc((70vw * 0.4) + 15vw);
+    background: linear-gradient(90deg, var(--primary-color) var(--valor), var(--white-color) var(--valor));
+}
+.container-form{
+    display: flex;
+    box-shadow: 0 0 20px #3335;
+    width: 70vw;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.container-form .colunm-logo{
+    background: var(--primary-color);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    color: var(--white-color);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0;
+    box-sizing: border-box;
+
+}
+.container-form .colunm-logo .button{
+    background: #fff0;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 0.2rem 0.4rem ;
+    text-decoration: none;
+
+
+}
+.container-form .colunm-logo .button:hover{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+.container-form .colunm-logo p{
+    font-size: 0.8rem;
+}
+.container-form .colunm-logo h2{
+    margin: 0;
+}
+
+.container-form .colunm-form{
+    width: 60%;
+    background: var(--white-color);
+    padding: 3rem;
+    color:#333;
+
+    box-sizing: border-box;
+    
+}
+.container-form .colunm-form form{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+
+}
+.container-form .colunm-form form input[type="text"],
+    .container-form .colunm-form form input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #bebdbd;
+    width: 100%;
+}
+.container-form .beneficios{
+    display: flex;
+    flex-direction: column;
+}
+.container-form .colunm-form form input[type="radio"], .container-form .colunm-form form input[type="checkbox"]{
+    cursor: pointer;
+}
+
+.colunm-form form button{
+    background: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.colunm-form form .item{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: start;
+
+}
+.colunm-form form .grupo{
+    display: flex;
+    gap: 1rem;
+}
+.colunm-form form .grupo .item{
+    width: 30%;
+
+}
+
