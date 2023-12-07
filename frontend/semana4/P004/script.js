@@ -1,3 +1,7 @@
+function Comprar(id){
+  const card = cards.find((card) => card.id === id);
+  console.log(card);
+}
 function printBeneficios(beneficios){
   let beneficio = "";
 
