@@ -9,3 +9,13 @@ class Card {
     this.taxaInclusa = taxaInclusa;
   }
 }
+
+function adicionaCardNoStorage(Card) {
+  // Obtém as Cards existentes do localStorage
+  let Cards = JSON.parse(localStorage.getItem("Cards")) || [];
+  // Adiciona a nova Card ao array
+  Cards.push(Card);
+  // Armazena o array atualizado no localStorage
+  localStorage.setItem("Cards", JSON.stringify(Cards));
+}
+
