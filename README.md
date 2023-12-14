@@ -10,7 +10,13 @@ Este repositório é destinado ao armazenamento das atividades e exemplos desenv
 - [Semana 2](./frontend/semana2): Introdução a estilização com o uso de grid.
     - [P002](./frontend/semana2/P002/): A atividade consistiu na criação de uma estrutura semelhante ao site da UESC utilizando HTML e CSS, com foco na implementação de um layout utilizando o sistema de Grid. O objetivo foi replicar o croqui fornecido pelo professor, empregando os conceitos de Grid para organizar e posicionar os elementos da página.
 - [Semana 3](./frontend/semana3): Introdução a estilização com o uso de flex.
-    - [P002](./frontend/semana3/P003/): Seguindo um modelo base, foi proposto a execução de uma lista de cards de passagens aéreas. A solução final contém um site completo, seguindo um design de uma companhia aérea.
+    - [P003](./frontend/semana3/P003/): Seguindo um modelo base, foi proposto a execução de uma lista de cards de passagens aéreas. A solução final contém um site completo, seguindo um design de uma companhia aérea.
+- [Semana 4](./frontend/semana4): Introdução javaScript.
+    - [P004](./frontend/semana4/P004/): Site de viagens com formulário para adição automática de cards.
+- [Semana 5](./frontend/semana5): Introdução typeScript.
+    - [P005](./frontend/semana5/P005/): Site inspirado na UESC com integração de APIs, dentre elas : ranking de criptomoedas, noticias do mundo academico e fotos de estudos.
+
+
 
 
  
