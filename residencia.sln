@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "TodoApi\TodoApi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9EF3B1AE-ED1B-4517-962A-AE6E1812980E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "techmed", "techmed\techmed.csproj", "{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9EF3B1AE-ED1B-4517-962A-AE6E1812980E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EF3B1AE-ED1B-4517-962A-AE6E1812980E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EF3B1AE-ED1B-4517-962A-AE6E1812980E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
