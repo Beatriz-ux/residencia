@@ -9,13 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "techmed", "techmed\techmed.csproj", "{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjetoCamadas", "ProjetoCamadas", "{2EA319D8-0870-40DC-88E3-AA90A57BFFF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "ProjetoCamadas\Infrastructure\Infrastructure.csproj", "{1456E2B7-7724-49BA-A5BF-E0CB561D4B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechMedDomain", "ProjetoCamadas\TechMedDomain\TechMedDomain.csproj", "{EEF4D160-C04A-42E1-918B-33581C822F1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD", "ProjetoCamadas\CRUD\CRUD.csproj", "{C41EBAA6-CC1F-470C-89DE-10B7A5BF07BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B94FEDEA-C7FA-43A9-9C55-D8E17C597BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +35,25 @@ Global
 		{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E2FB5F9-9115-4ECC-B7D6-CF06EDF3536F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1456E2B7-7724-49BA-A5BF-E0CB561D4B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1456E2B7-7724-49BA-A5BF-E0CB561D4B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1456E2B7-7724-49BA-A5BF-E0CB561D4B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1456E2B7-7724-49BA-A5BF-E0CB561D4B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF4D160-C04A-42E1-918B-33581C822F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF4D160-C04A-42E1-918B-33581C822F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF4D160-C04A-42E1-918B-33581C822F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF4D160-C04A-42E1-918B-33581C822F1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41EBAA6-CC1F-470C-89DE-10B7A5BF07BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41EBAA6-CC1F-470C-89DE-10B7A5BF07BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41EBAA6-CC1F-470C-89DE-10B7A5BF07BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41EBAA6-CC1F-470C-89DE-10B7A5BF07BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1456E2B7-7724-49BA-A5BF-E0CB561D4B75} = {2EA319D8-0870-40DC-88E3-AA90A57BFFF3}
+		{EEF4D160-C04A-42E1-918B-33581C822F1F} = {2EA319D8-0870-40DC-88E3-AA90A57BFFF3}
+		{C41EBAA6-CC1F-470C-89DE-10B7A5BF07BD} = {2EA319D8-0870-40DC-88E3-AA90A57BFFF3}
 	EndGlobalSection
 EndGlobal

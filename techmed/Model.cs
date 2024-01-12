@@ -17,7 +17,8 @@ public class TechmedContext: DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         base.OnConfiguring(optionsBuilder);
-        var stringConexao = "server=localhost;user=dotnet;password=tic2023;database=tech";
+        //var stringConexao = "server=localhost;user=dotnet;password=tic2023;database=tech";
+        var stringConexao = "server=localhost;user=dotnet;password=residencia2023;database=tech";
         var serverVersion = ServerVersion.AutoDetect(stringConexao);
 
         optionsBuilder.UseMySql(stringConexao,serverVersion);
